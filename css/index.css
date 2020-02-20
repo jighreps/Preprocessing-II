@@ -168,6 +168,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  margin: 0 0 3% 61%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,6 +227,22 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+header {
+  padding: 1%;
+  font-size: 2em;
+  width: 50%;
+  margin-left: 25%;
+}
+header div {
+  border-bottom: 2px dashed  lightgrey;
+}
+header .busImg {
+  width: 88%;
+  margin-left: 6%;
+}
+header h1 {
+  margin-left: 6%;
 }
 .btn {
   display: flex;
