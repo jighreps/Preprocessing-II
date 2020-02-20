@@ -225,3 +225,13 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.btn {
+  display: flex;
+  width: 90%;
+  padding: 6%;
+  font-size: 2em;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: #53a19d;
+  color: white;
+}
