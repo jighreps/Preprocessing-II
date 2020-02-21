@@ -1,22 +1,45 @@
 .home {
 
+  
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+
+   
+
+
 
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
-    }
+
+
+  @media @mobile {  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+}
 
     .img-content {
       width: 48%;
       padding-left: 1%;
 
+
+      @media @mobile {
+        width: 100%;
+        display:flex;
+        justify-content: space-evenly;
+        margin: 0%;
+        padding:3%;
+  
+}
       img {
         border-radius: 10px;
       }
@@ -26,10 +49,22 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    
+@media @mobile {
+  width: 100%;
+  display:flex;
+  flex-direction: column-reverse;
+  
+  }
+
 
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+
+      
+
+
     }
 
     .img-content {
@@ -53,23 +88,70 @@
     display: flex;
     justify-content: space-between;
 
+
+
+
+    @media @mobile{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    
+    }
+
+
+
+
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0%;
+  
+}
+
+
+
     }
   }
 }// home
 
 header{
-  // display:flex;
-  // flex-direction: column;
-  // justify-content: space-between;
   padding: 1%;
   font-size: 2em;
   width: 50%;
   margin-left: 25%;
+
+
+  @media @mobile{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  
 div{
   border-bottom: 2px dashed  lightgrey;
+
+
+  @media @mobile{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+  }
+
+
+
   
 }  
   
@@ -77,14 +159,32 @@ div{
 .busImg{
   width: 88%;
   margin-left: 6%;
+
+  @media @mobile{
+    width: 90%;
+
+  }
+
+
   
 }
 
 h1{
   margin-left:6%;
+
+  @media @mobile{
+    display:flex;
+    justify-content: center;
+    padding:1%;
+  }
+
+
   
 }
   
   
 }
+
+
+
 
